@@ -1,5 +1,5 @@
 {
-  "name": "nertwork-api",
+  "name": "network-api",
   "version": "1.0.0",
   "description": "social network",
   "main": "server.js",
@@ -18,11 +18,13 @@
   "author": "me",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Shagens/Nertwork-API/issues"
+    "url": "https://github.com/Shagens/Network-API/issues"
   },
-  "homepage": "https://github.com/Shagens/Nertwork-API#readme",
+  "homepage": "https://github.com/Shagens/Network-API#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^6.1.5"
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.5",
+    "mongoose-moment": "^0.1.3"
   }
 }
